@@ -27,6 +27,13 @@ This *should* create two transforms and a machine in Maltego.
   * `Nmap XML Parser`
     - Expects a path to the Nmap XML file
 
+### Install note
+
+You can also install into a different directory but, after installation, you
+have to change the path of the two transformations "Nmap Port Services" and
+"Nmap XML parser" to point to the right destination. To do this open the 
+"Transformation Manager" and search for the two services.
+
 ## Use
 
 From the `Run Machine` option, select `Nmap XML Parser` and enter the path to
